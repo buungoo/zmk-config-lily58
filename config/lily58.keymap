@@ -14,7 +14,7 @@
 		td_1: tap_dance_backspace_shift_ctrl {
 			compatible = "zmk,behavior-tap-dance";
 			#binding-cells = <0>;
-			tapping-term-ms = <125>; /* Adjust for your preferred double-tap speed */
+			tapping-term-ms = <175>; /* Adjust for your preferred double-tap speed */
 			bindings = <&mt RSHIFT BACKSPACE>, <&kp LC(BSPC)>; /* Tap, Double-Tap, Hold */
 		};
 	};
