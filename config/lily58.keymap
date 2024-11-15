@@ -15,7 +15,7 @@
 			compatible = "zmk,behavior-tap-dance";
 			#binding-cells = <0>;
 			tapping-term-ms = <200>; /* Adjust for your preferred double-tap speed */
-			bindings = <&mt RSHIFT BACKSPACE>, <&kp C(BSPC)>; /* Tap, Double-Tap, Hold */
+			bindings = <&mt RSHIFT BACKSPACE>, <&kp LC(BSPC)>; /* Tap, Double-Tap, Hold */
 		};
 	};
     keymap {
